@@ -1,0 +1,71 @@
+/* Базовые стили контейнера */
+.character-container {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  max-width: 800px;
+  margin: auto;
+  /*background-image: url('../src/assets/background.jpg');*/
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Стилизация изображения */
+.character-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+/* Стили для кнопок */
+button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Стилизация текста */
+strong {
+  color: #333;
+}
+
+/* Адаптация под мобильные устройства */
+@media (max-width: 768px) {
+  .character-container {
+    padding: 10px;
+  }
+
+  .character-history, .character-description {
+    font-size: 14px;
+  }
+
+  button {
+    padding: 3px 6px;
+  }
+}
+
+/* Адаптация для очень маленьких экранов */
+@media (max-width: 480px) {
+  .character-container {
+    padding: 5px;
+  }
+
+  h1, h2 {
+    font-size: 18px;
+  }
+
+  .character-description, .character-history {
+    font-size: 12px;
+  }
+}
