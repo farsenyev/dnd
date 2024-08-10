@@ -64,7 +64,9 @@ button:hover {
     font-size: 12px;
   }
 }
-
+.stats strong{
+  color: #eee;
+}
 .stats {
   color: #11ac00;
   padding: 10px;
