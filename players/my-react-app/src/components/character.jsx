@@ -59,7 +59,7 @@ export const CharacterComponent = () => {
             <h2>Пассивки</h2>
             {Object.entries(passives).map(([key, value]) => (
                 <div key={key} className={'pass'}>
-                    <p>{key}: {value}</p>
+                    <p>{value}</p>
                 </div>
             ))}
         </div>
