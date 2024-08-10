@@ -35,11 +35,6 @@ button:hover {
   background-color: #0056b3;
 }
 
-/* Стилизация текста */
-strong {
-  color: #333;
-}
-
 /* Адаптация под мобильные устройства */
 @media (max-width: 768px) {
   .character-container {
@@ -68,4 +63,9 @@ strong {
   .character-description, .character-history {
     font-size: 12px;
   }
+}
+
+.stats {
+  color: #11ac00;
+  padding: 10px;
 }
