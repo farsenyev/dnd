@@ -46,21 +46,21 @@ export const CharacterComponent = () => {
             </div>
             <h2>Снаряжение</h2>
             {Object.entries(inventory).map(([key, value]) => (
-                <div key={key} className={'inv'}>
-                    <p>{key}: {value}</p>
-                </div>
+                <ul key={key} className={'inv'}>
+                    <li>{key}: {value}</li>
+                </ul>
             ))}
             <h2>Активки</h2>
             {Object.entries(spells).map(([key, value]) => (
-                <div key={key} className={'spells'}>
-                    <p>{key}: {value}</p>
-                </div>
+                <ul key={key} className={'spells'}>
+                    <li>{key}: {value}</li>
+                </ul>
             ))}
             <h2>Пассивки</h2>
             {Object.entries(passives).map(([key, value]) => (
-                <div key={key} className={'pass'}>
-                    <p>{value}</p>
-                </div>
+                <ul key={key} className={'pass'}>
+                    <li>{value}</li>
+                </ul>
             ))}
         </div>
     );
