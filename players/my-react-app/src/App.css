@@ -35,6 +35,10 @@ button:hover {
   background-color: #0056b3;
 }
 
+strong, p {
+  font-size: 1.2em;
+}
+
 /* Адаптация под мобильные устройства */
 @media (max-width: 768px) {
   .character-container {
@@ -42,7 +46,7 @@ button:hover {
   }
 
   .character-history, .character-description {
-    font-size: 14px;
+    font-size: 1.2em;
   }
 
   button {
@@ -57,11 +61,11 @@ button:hover {
   }
 
   h1, h2 {
-    font-size: 18px;
+    font-size: 24px;
   }
 
   .character-description, .character-history {
-    font-size: 12px;
+    font-size: 1em;
   }
 }
 .stats strong{
